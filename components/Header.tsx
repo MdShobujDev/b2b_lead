@@ -28,6 +28,9 @@ const Header = () => {
         { href: '/services/data-enrichment', label: 'Data Enrichment' },
         { href: '/services/ecommerce-leads', label: 'Ecommerce Leads' },
         { href: '/services/influencer-leads', label: 'Influencer Leads' },
+        { href: '/services/lead-generation', label: 'Lead Generation' },
+        { href: '/services/virtual-assistant', label: 'Virtual Assistant' },
+        { href: '/services/web-research', label: 'Web Research' },
       ]
     },
     { href: '/contact', label: 'Contact' },

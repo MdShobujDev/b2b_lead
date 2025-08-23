@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { Database, ShoppingCart, Users, ArrowRight } from 'lucide-react';
+import { Database, ShoppingCart, Users, ArrowRight, Target, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const ServicesPreview = () => {
@@ -33,6 +33,33 @@ const ServicesPreview = () => {
       href: '/services/influencer-leads',
       gradient: 'from-orange-500 to-orange-600',
       bgGradient: 'from-orange-50 to-orange-100'
+    },
+    {
+      icon: Target,
+      title: 'Lead Generation',
+      description: 'Get qualified B2B prospects with verified contact information, company intelligence, and buying signals that drive revenue.',
+      features: ['Qualified Prospects', 'ROI Optimization', 'Multi-Channel Sourcing', 'Real-Time Delivery'],
+      href: '/services/lead-generation',
+      gradient: 'from-green-500 to-green-600',
+      bgGradient: 'from-green-50 to-green-100'
+    },
+    {
+      icon: Users,
+      title: 'Virtual Assistant',
+      description: 'Professional virtual assistants for administrative support, scheduling, research, and task management to boost productivity.',
+      features: ['Admin Support', 'Task Management', 'Research & Analysis', 'Customer Support'],
+      href: '/services/virtual-assistant',
+      gradient: 'from-purple-500 to-purple-600',
+      bgGradient: 'from-purple-50 to-purple-100'
+    },
+    {
+      icon: Search,
+      title: 'Web Research',
+      description: 'Comprehensive market research, competitive intelligence, and data collection services for strategic decision-making.',
+      features: ['Competitive Intelligence', 'Market Research', 'Data Collection', 'Business Intelligence'],
+      href: '/services/web-research',
+      gradient: 'from-indigo-500 to-indigo-600',
+      bgGradient: 'from-indigo-50 to-indigo-100'
     }
   ];
 

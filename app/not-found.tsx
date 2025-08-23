@@ -106,6 +106,15 @@ export default function NotFound() {
               <Link href="/services/influencer-leads" className="text-blue-600 hover:text-blue-700 transition-colors">
                 Influencer Leads
               </Link>
+              <Link href="/services/lead-generation" className="text-blue-600 hover:text-blue-700 transition-colors">
+                Lead Generation
+              </Link>
+              <Link href="/services/virtual-assistant" className="text-blue-600 hover:text-blue-700 transition-colors">
+                Virtual Assistant
+              </Link>
+              <Link href="/services/web-research" className="text-blue-600 hover:text-blue-700 transition-colors">
+                Web Research
+              </Link>
               <Link href="/order" className="text-blue-600 hover:text-blue-700 transition-colors">
                 Order Now
               </Link>
