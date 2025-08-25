@@ -9,6 +9,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import HoneypotField from '@/components/HoneypotField';
+import Link from 'next/link'
 
 export default function Portfolio() {
   const [selectedIndustry, setSelectedIndustry] = useState('all');
