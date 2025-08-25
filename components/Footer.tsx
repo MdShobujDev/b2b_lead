@@ -21,6 +21,7 @@ const Footer = () => {
       title: 'Company',
       links: [
         { href: '/about', label: 'About Us' },
+        { href: '/portfolio', label: 'Portfolio' },
         { href: '/contact', label: 'Contact' },
         { href: '/privacy', label: 'Privacy Policy' },
         { href: '/terms', label: 'Terms of Service' },

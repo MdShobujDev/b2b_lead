@@ -97,6 +97,9 @@ export default function NotFound() {
               <Link href="/about" className="text-blue-600 hover:text-blue-700 transition-colors">
                 About Us
               </Link>
+              <Link href="/portfolio" className="text-blue-600 hover:text-blue-700 transition-colors">
+                Portfolio
+              </Link>
               <Link href="/services/data-enrichment" className="text-blue-600 hover:text-blue-700 transition-colors">
                 Data Enrichment
               </Link>
